@@ -8,8 +8,17 @@ A FastAPI backend with a Strands agent using Amazon Nova Pro model and a mock we
 ```bash
 uv sync
 ```
+2. Configure AWS region and credentials: 
 
-2. Run the server:
+```bash
+export AWS_DEFAULT_REGION='us-east-1'
+export AWS_REGION='us-east-1'
+
+export AWS_ACCESS_KEY_ID='your_access_key'
+export AWS_SECRET_ACCESS_KEY='your_secret_key'
+```
+
+3. Run the server:
 ```bash
 uv run python main.py
 ```
