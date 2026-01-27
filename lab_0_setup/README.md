@@ -36,8 +36,11 @@ uv --version
 # Navigate to the project directory
 cd mastering-generative-ai
 
+# Init UV project
+uv init
+
 # Add core dependencies
-uv add jupyter boto3 torch==2.2.2 torchvision transformers
+uv add jupyter boto3 torch==2.9.0 torchvision transformers
 
 # Sync uv
 uv sync
